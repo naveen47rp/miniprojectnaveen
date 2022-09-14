@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>naveen</title>
+    <style>
+        
+        #a{grid-area:A;}
+        #b{grid-area:B;}
+        #c{grid-area:C;}
+        #a1{grid-area:A1}
+        #b1{grid-area:B1;}
+        #c1{grid-area:C1;}
+        #a2{grid-area:A2;}
+        #b2{grid-area:B2;}
+        #c2{grid-area:C2;}
+        
+
+        #maindiv{
+            display: grid;
+            grid-template-areas:"A A1 A2""B B1 B2""C C1 C2"  ;
+           text-align: center;
+        
+         text-align: center;
+        }
+        #header{
+            color:blue;
+            background-image: linear-gradient(orange,white,green);
+            background-size: 30px;
+            font-family: monospace;
+            font-size: 30px;
+            top: 0%;
+            text-align: center;
+            text-decoration: double;
+            border: 2px;
+            border-radius: 30px;
+            position: relative;
+            width: 100%;
+            padding: 10px;
+            border-color: black;
+        }
+        #footer{
+            color:blue;
+            background-image: linear-gradient(orange,white,green);
+            background-size: 30px;
+            font-family: monospace;
+            font-size: 30px;
+          bottom:0%;
+            text-align: center;
+            position:relative;
+            width:100%;
+            text-decoration: double;
+            border: 2px;
+            border-radius: 30px;
+            padding: 10px;
+            border-color: black;
+
+        }
+        body{
+            background-image:url(https://pngbasket.com/wp-content/uploads/2021/08/4-1.jpg);
+            background-size:contain;
+            
+
+        }
+
+       img{
+           border-top-left-radius: 30px;
+           border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+        animation-name: su;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            
+
+        }
+        @keyframes su{
+            50%{border-bottom-right-radius: 100px;}
+            50%{border-top-right-radius: 100px;}  
+            50%{border-bottom-left-radius: 100px;}
+            50%{border-top-left-radius: 100px;}  
+        
+    
+        }
+        
+    </style>
+</head>
+<body>
+    <header><h1 id="header">HISTORICAL PLACES OF INDIA<i &nbsp class="bi bi-geo-alt">&nbsp;</i></h1><br></header><br><br>
+    
+   
+    <div id="maindiv">
+        <div  id="a"><a href="https://en.wikipedia.org/wiki/Mehrangarh"target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9PQjsPI1xYIOXvpVlSkyZoCJXZ31N8JP15Q&usqp=CAU"width="300px" height="200px">
+        <h2 > Mehrangarh Fort </h2>
+        </a></div>
+        <div  id="a1"><a href="https://en.wikipedia.org/wiki/Qutub_Minar"target="_blank">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/b7/1f/31/qutab-minar.jpg?w=1200&h=1200&s=1"width="300px" height="200px"><br>
+            <h2>Qutub Minar </h2>
+        </a></div>
+        <div  id="a2"><a href="https://en.wikipedia.org/wiki/Charminar"target="_blank">
+            <img src="https://cdn.theculturetrip.com/wp-content/uploads/2016/06/24498998325_f451c67aae_o.jpg"width="300px" height="200px"><br>
+           <h2> Char Minar</h2>
+        </a></div>
+        <div  id="b"><a href="https://en.wikipedia.org/wiki/Red_Fort"target="_blank">
+            <img src="https://cdn.britannica.com/75/152475-050-DA89FF0A/Red-Fort-Old-Delhi-India.jpg" width="300px" height="200px"><br>
+            <h2>Red Fort</h2>
+        </a></div>
+        <div  id="b1"><a href="https://en.wikipedia.org/wiki/Golden_Temple"target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/The_Golden_Temple_of_Amrithsar_7.jpg"width="300px" height="200px"><br>
+           <h2> Golden Temple</h2>
+        </a></div>
+        <div id="b2"><a href="https://en.wikipedia.org/wiki/Golconda_fort"target="_blank" >
+            <img src="https://assets-news.housing.com/news/wp-content/uploads/2020/11/02184143/Everything-you-need-to-know-about-Golconda-Fort-FB-1200x700-compressed.jpg"width="300px" height="200px">
+            <h2>Golconda fort</h2>
+        </a></div>
+        <div  id="c"><a href="https://en.wikipedia.org/wiki/Taj_Mahal"target="_blank">
+            <img src="https://skift.com/wp-content/uploads/2022/06/GettyImages-1208049833-scaled-e1654782364566-1024x682.jpg" width="300px" height="200px"><br>
+            <h2>Taj Mahal</h2>
+        </a></div>
+        <div id="c1"><a href="https://en.wikipedia.org/wiki/India_Gate"target="_blank">
+            <img src="https://images.news18.com/ibnlive/uploads/2022/01/indiagate-16430470933x2.jpg?im=Resize,width=360,aspect=fit,type=normal?im=Resize,width=320,aspect=fit,type=normal"width="300px" height="200px"><br>
+            <h2>India Gate</h2>
+        </a></div>
+        <div  id="c2"><a href="https://en.wikipedia.org/wiki/Taj_Hotel"target="_blank" >
+            <img src="https://video-images.vice.com/_uncategorized/1539696156342-Taj-Mumbai-If-These-Walls-Could-Talk-5-of-12.jpeg"width="300px" height="200px"><br>
+            <h2>Taj Hotel </h2>
+        </a></div>
+
+        </div>  
+      </div>
+      <hr color="black">
+      <h1  align="center" style="color:navy" >National Anthem</h1>
+      <div  align="center">
+        <audio controls>
+        <source src="national anthem.mp3" > 
+        </audio>
+    </div>
+    <footer><h2 id="footer">THANK  YOU &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BY NAVEEN RAJPUROHIT</h2></footer>
+     
+   
+  
+</body>
+</html>
